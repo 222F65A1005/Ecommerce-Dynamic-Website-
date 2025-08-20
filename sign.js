@@ -21,7 +21,8 @@ let arr = JSON.parse(localStorage.getItem("easkartUser")) ||  []
       arr.push(user)
         localStorage.setItem("easkartUser", JSON.stringify(arr));
          alert("Account created successfully! Please login.");
-         window.location.href = "index.html";
+         window.location.href = "./index.html";
     });
   }
+
 
