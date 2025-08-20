@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Register.css">
+</head>
+<body>
+    <form action="Logins.html" method="POST">
+    <div class="container">
+      <div class="register-form">
+        <h2>Register</h2>
+        <p>Create your new account</p>
+
+        <label for="fullname">Full Name</label>
+        <div class="input-box">
+          <input type="text" id="fullname" name="fullname" placeholder="Full Name" required />
+        </div>
+
+        <label for="email">Email</label>
+        <div class="input-box">
+          <input type="email" id="email" name="email" placeholder="Email" required />
+        </div>
+
+        <label for="username">User Name</label>
+        <div class="input-box">
+          <input type="text" id="username" name="username" placeholder="User Name" required />
+        </div>
+
+        <label for="password">Password</label>
+        <div class="input-box">
+          <input type="password" id="password" name="password" placeholder="Password" required />
+        </div>
+
+        <label for="confirm-password">Confirm Password</label>
+        <div class="input-box">
+          <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required />
+        </div>
+
+        <div class="button-Container">
+          <button type="submit">Register</button>
+          <p>Already have an account? <a href="Logins.html">Login here</a></p>
+        </div>
+      </div>
+    </div>
+  </form>
+    <script src="./Register.js"></script>
+</body>
+</html>
